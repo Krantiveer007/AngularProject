@@ -1,0 +1,57 @@
+.mv2-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+}
+.mv2-sideNav{
+    position:fixed;
+    min-width: 4%;
+    height: 100%;
+    float:left;
+}
+.mv2-appContainer{
+    width: 96%;
+    height: 100%;
+    float:right;
+} 
+.mv2-headerNav{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    padding: 15px;
+}
+.productName{
+    height: 100%;
+    width:100%;
+    padding:10px;
+    font-weight: normal;
+}
+.globalSearchBar{
+    height: 100%;
+    width:100%;
+    padding:10px;
+}
+#globalSearch{
+    border:1px solid #ccc;
+    box-shadow: #ccc;
+    padding:10px;
+    font-size:12px;
+}
+.userName{
+    height: 100%;
+    width:100%;
+    padding:10px;
+    font-size:12px;
+}
+.userPreferences{
+    height: 100%;
+    width:100%;
+    padding:10px;
+    font-size:12px;
+}
+.userNotifications{
+    height: 100%;
+    width:100%;
+    padding:10px;
+    font-size:12px;
+}
