@@ -25,33 +25,48 @@
     width:100%;
     padding:10px;
     font-weight: normal;
+    text-align: center;
 }
 .globalSearchBar{
     height: 100%;
     width:100%;
-    padding:10px;
 }
 #globalSearch{
     border:1px solid #ccc;
     box-shadow: #ccc;
-    padding:10px;
+    height: 100%;
+    width:100%;
     font-size:12px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ccc;
+    padding-left :10px;
+    padding-right:10px; 
 }
 .userName{
     height: 100%;
     width:100%;
     padding:10px;
-    font-size:12px;
+    font-size:15px;
+    text-align: center;
 }
 .userPreferences{
     height: 100%;
     width:100%;
     padding:10px;
-    font-size:12px;
+    font-size:15px;    
+    text-align: center;
 }
 .userNotifications{
     height: 100%;
     width:100%;
     padding:10px;
-    font-size:12px;
+    font-size:15px;
+    text-align: center;
+}
+@media (max-width: 200px) {
+    body{font-size: 10px;}
+}
+
+@media (min-width: 600px) {
+    body{font-size: 14px;}
 }
